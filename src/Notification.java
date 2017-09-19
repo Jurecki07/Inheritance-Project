@@ -30,6 +30,13 @@ public abstract class Notification {
 
     public abstract void transport() throws NoTransportException;
 
-
-
+    protected void testText(){
+        System.out.println("Testing");
+    }
+    public void showStatus(){
+        System.out.println("e-mail notification "+status);
+    }
 }
+
+
+
